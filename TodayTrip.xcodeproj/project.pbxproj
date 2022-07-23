@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		137A06C9288C4FF600260F51 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A06C8288C4FF600260F51 /* Loading.swift */; };
 		13DB60F0283A5ACF00F050E4 /* TodayTripApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB60EF283A5ACF00F050E4 /* TodayTripApp.swift */; };
 		13DB60F2283A5ACF00F050E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB60F1283A5ACF00F050E4 /* ContentView.swift */; };
 		13DB60F4283A5AD000F050E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13DB60F3283A5AD000F050E4 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		137A06C8288C4FF600260F51 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		13DB60EC283A5ACF00F050E4 /* TodayTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13DB60EF283A5ACF00F050E4 /* TodayTripApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTripApp.swift; sourceTree = "<group>"; };
 		13DB60F1283A5ACF00F050E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		137A06C7288C4FE800260F51 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				137A06C8288C4FF600260F51 /* Loading.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		13DB60E3283A5ACF00F050E4 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 				13DB60EF283A5ACF00F050E4 /* TodayTripApp.swift */,
 				13DB60F1283A5ACF00F050E4 /* ContentView.swift */,
 				13DB60F3283A5AD000F050E4 /* Assets.xcassets */,
+				137A06C7288C4FE800260F51 /* Login */,
 				13DB60F5283A5AD000F050E4 /* Preview Content */,
 			);
 			path = TodayTrip;
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13DB60F2283A5ACF00F050E4 /* ContentView.swift in Sources */,
+				137A06C9288C4FF600260F51 /* Loading.swift in Sources */,
 				13DB60F0283A5ACF00F050E4 /* TodayTripApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,7 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
