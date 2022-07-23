@@ -37,7 +37,7 @@ struct Loading: View {
                             .clipShape(Capsule())
                         }.frame(width: gp.size.width * 0.425, alignment: .trailing)
 
-                    }
+                    }.padding(.top)
                     ProgressView((""), value: loadingAmount, total: 100)
                         .tint(.white)
                         .frame(width: gp.size.width * 0.85, height: gp.size.height * 0.07, alignment: .center)
